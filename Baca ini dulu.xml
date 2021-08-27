@@ -1,0 +1,69 @@
+=========================================
+                                
+ >>>> Assalamualaikum Wr Wb <<<<
+ 
+==========================================
+
+==> Masukan Semua bahan
+	
+buka res/values/colors.xml
+tambahkan ini
+
+       <color name="style_version_border_color">#ffe6e6e6</color>
+       <color name="style_version_text_color">#ff121212</color>
+       
+       
+buka res/values/strings.xml
+tambahkan ini
+
+       <string name="name_of_branding">Nusantara Project</string>
+       <string name="style_version_branding">Final Official</string>
+       <string name="style_version_flavour">EOL</string>
+       <string name="style_version_device">Device</string>
+       <string name="style_device_name_text">Redmi Note 8</string>
+       <string name="style_version_cpu">CPU</string>
+       <string name="style_device_cpu_text">Octa-core Max 2,1GHz</string>
+       <string name="style_version_maintainer">Maintainer</string>
+       <string name="style_device_maintainer_text">xzanxz x aoihara</string>
+       <string name="style_version_battery">Battery</string>
+       <string name="style_device_battery_text">4000 mAh</string>
+       <string name="style_version_ram">RAM</string>
+       <string name="style_device_ram_text">4.00 GB</string>
+       <string name="style_version_resolution">Resolution</string>
+       <string name="style_device_screen_res_text">1080x2340</string>
+       
+buka res/values-in/strings.xml
+tambahkan ini
+
+      <string name="style_version_device">Model Perangkat</string>
+      <string name="style_version_battery">Baterai</string>
+      <string name="style_version_resolution">Resolusi Layar</string>
+
+buka res/values-night/colors.xml
+tambahkan ini
+
+       <color name="style_version_border_color">#ff242424</color>
+       <color name="style_version_text_color">#ffffffff</color>
+       
+buka res/xml/firmware_version.xml
+tambahkan ini
+
+<Preference android:layout="@layout/style_version" android:layout_height="fill_parent" android:selectable="false" android:key="style_version" android:order="-500" />
+
+  Done.... , Recompile, Sign, Push
+
+    #SalamVootlop
+
+    #Guide Ditulis Oleh Afive45
+
+       Big Thanks :
+       
+       - Anu Bareng ( Telegram Group )
+       - All member & User Anu Bareng
+       - Apktool ( Andro Black )
+       - You
+       - And More
+
+        Thanks For Compare Source :
+       
+        - Fluid OS
